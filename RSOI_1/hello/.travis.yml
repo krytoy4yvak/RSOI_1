@@ -1,4 +1,7 @@
 language: python
   python:
     - "3.6"
-  
+deploy:
+ provider: heroku
+api_key: e641c6c9-cf73-4166-bf8d-9cd1351de104
+app: myrsoi
