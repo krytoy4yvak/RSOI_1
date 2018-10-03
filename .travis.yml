@@ -5,3 +5,7 @@ install:
  true
 # command to run tests
 script: pytest
+deploy:
+ provider: heroku
+api_key: e641c6c9-cf73-4166-bf8d-9cd1351de104
+app: myrsoi
